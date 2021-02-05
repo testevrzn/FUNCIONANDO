@@ -1,10 +1,10 @@
 const help = (prefix) => {
 	return `
-	   🐼 *BOT PANDA* 🐼
+	    *BOT PATO* 
 		  
 	  〘 *INFORMAÇÕES* 〙
 ➤ Prefix: 「  ${prefix}  」
-➤ Meu Dono: *Vrauzin*
+➤ Meu Dono: *LUIZA*. CTT:55219990795727
 -------------------------------------------------------
 	    〘 *MENU SOBRE* 〙
 ➤ Comando: ${prefix}blocklist

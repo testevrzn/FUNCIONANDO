@@ -78,9 +78,9 @@ const { othermenu } require('./database/menu/othermenu')*/
 /******LOAD OF VCARD INPUT******/
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:ToinðŸ–¤\n' // full name
+            + 'FN:SlrðŸ–¤\n' // full name
             + 'ORG:Owner Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=5511989677033:+55 (11) 98967-7033\n' // ID do WhatsApp + nÃºmero de telefone
+            + 'TEL;type=CELL;type=VOICE;waid=5511989677033:+55 (62) 9663-8900\n' // ID do WhatsApp + nÃºmero de telefone
             + 'END:VCARD'
 /******END OF VCARD INPUT******/
 
@@ -287,7 +287,7 @@ async function starts() {
 			const isOwner = ownerNumber.includes(sender)
                         const isUser = user.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = 5511989677033'@s.whatsapp.net'
+                        const NomerOwner = '5511989677033@s.whatsapp.net'
                         /******ApiKey Input******/
                         const BarBarKey = 'YOUR_APIKEY'
                         /******End of ApiKey Input******/

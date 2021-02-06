@@ -132,8 +132,8 @@ const help = (prefix) => {
   │
   ├─ ❏ ${prefix}setprefix
   ├─ ❏ ${prefix}block
-  ├─ ❏ ${prefix}bc
-  ├─ ❏ ${prefix}bcgc
+  ├─ ❏ ${prefix}OFF
+  ├─ ❏ ${prefix}OFF
   ├─ ❏ ${prefix}clone
   └─ ❏ ${prefix}clearall
 ◪ *OUTROS*

@@ -3,7 +3,7 @@ const menuadmin = (prefix, pushname) => {
  _obs para o bot executar esses comandos e nescessario dar adm para o bot_
  
    〘 *COMANDOS DO ADMIN* 〙
-		 *Bot Panda*
+		 *Bot Marlon*
 -------------------------------------------------------
  ➤ Comando: ${prefix}opengc
  
@@ -25,7 +25,7 @@ const menuadmin = (prefix, pushname) => {
  
  ➤ Comando: ${prefix}add
  
- ➤ Comando: ${prefix}kick
+ ➤ Comando: ${prefix}OFF
  
  ➤ Comando: ${prefix}listadmins
  

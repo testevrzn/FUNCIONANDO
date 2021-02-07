@@ -4,8 +4,8 @@ const help = (prefix) => {
 
 ◪ *informações*
   ❏ Prefix: 「  ${prefix}  」
-  ❏ Criador : Tio Vrau 
-  ❏ Contato :http://wa.me/559885018147
+  ❏ Criador : Marlon
+  ❏ Contato :http://wa.me/5511989677033
 
 ◪ *SOBRE*
   │

@@ -1,6 +1,6 @@
 const help = (prefix) => {
 	return `
-「 *MARLON BOT* 」
+「 *VRAU  BOT* 」
 
 ◪ *informações*
   ❏ Prefix: 「  ${prefix}  」

@@ -77,7 +77,7 @@ const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:NazwaðŸ–¤\n' // full name
             + 'ORG:Owner Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=5516988466655:+55 1698846-6655\n' // WhatsApp ID + phone number
+            + 'TEL;type=CELL;type=VOICE;waid=5511989677033:+55 11 98967-7033\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 /******END OF VCARD INPUT******/
 
@@ -243,7 +243,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: 'âŒ› TÃ¡ processando fdp calma aiðŸ¤¬ðŸ‡§ðŸ‡¼âŒ›',
+				wait: 'âŒ› TÃ¡ processando fdp calma tô procurando›',
 				success: 'âœ”ï¸ Sucesso âœ”ï¸',
                                 levelon: 'â¬ âœ” â­ *permitir o nivelamento*', 
 				leveloff: ' â¬ X â­  *desabilitar nivelamento*',
@@ -266,7 +266,7 @@ async function starts() {
         		const bisakah = ['Sim, vocÃª nÃ£o pode']
 		        const kapankah =  ['Dias de atraso ',' Mais domingo ',' Mais meses ',' Mais anos']
 			const botNumber = client.user.jid
-			const ownerNumber = ["5516988466655@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ["5511989677033@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
@@ -284,7 +284,7 @@ async function starts() {
 			const isOwner = ownerNumber.includes(sender)
                         const isUser = user.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '5516988466655@s.whatsapp.net'
+                        const NomerOwner = '11989677033@s.whatsapp.net'
                         /******ApiKey Input******/
                         const BarBarKey = 'YOUR_APIKEY'
                         /******End of ApiKey Input******/
